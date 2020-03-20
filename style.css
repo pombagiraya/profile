@@ -1,0 +1,94 @@
+body {
+  background: #F7F9FC;
+  color: #004d40;
+  font-family: 'Nunito', sans-serif;
+  font-size: 17px;
+}
+h1, h2, h3 {
+  font-family: 'Nunito', sans-serif;
+}
+h1 {
+  color: #004d40;
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+  color: #009688;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  color: #4db6ac;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  color: #00796b;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.btn-green {
+  background-color: #e0f2f1;
+  color: #00796b;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-green:hover {
+  background-color: black;
+  color: white;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: #e0f2f1;
+}
+.list-inline i:hover {
+  color: black;
+}
+
+#intro p {
+  margin-bottom: 40px;
+}
